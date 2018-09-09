@@ -17,7 +17,7 @@ import java.io.Serializable;
 
 
 @NoArgsConstructor
-//@AllArgsConstructor
+//@AllArgsConstructor 将很快很快
 @Data
 @Accessors(chain=true)
 public class Dept implements Serializable {
