@@ -14,7 +14,7 @@ public class DeptController {
 
     @RequestMapping(value="dept/get/{id}",method= RequestMethod.GET)
     public String get(@PathVariable("id") String id) {
-        System.out.println("deptcontroller:--2222--" + id);
+        System.out.println("deptcontrollaaaer:--edwin00--" + id);
         return "hello,world";
 
     }
